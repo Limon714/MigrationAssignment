@@ -1,6 +1,6 @@
-### Set up your Environment
-# Open your Code Editor
-# Run Apache & MySQL
+# Set up your Environment
+#### Open your Code Editor
+#### Run Apache & MySQL
 
 ```bash
 # Run
