@@ -8,6 +8,9 @@ class Dashboard extends Component
 {
     public function render()
     {
-        return view('livewire.dashboard');
+      $view = DB::table('products')->sum('price');
+        return view('livewire.dashboard',[
+            'view'=>$view
+        ]);
     }
 }
