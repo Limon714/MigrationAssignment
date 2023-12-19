@@ -1,3 +1,0 @@
-<main>
-    Add Product
-</main>
