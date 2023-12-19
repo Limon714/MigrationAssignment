@@ -1,3 +1,11 @@
+### Environment Setup
+First, Start Apache & MySQL:
+
+```bash
+ http://127.0.0.1:8000
+
+```
+
 # Dashboard
 ![Screenshot_56](https://github.com/Limon714/Storekeeper/assets/72975868/f51641a6-76ab-4815-93ba-0f7977095f3d) 
 
