@@ -1,18 +1,21 @@
 <?php
 
+use App\Http\Controllers\ProductController;
+use App\Livewire\Dashboard;
+use App\Livewire\EditProduct;
+use App\Livewire\Orderlist;
+use App\Livewire\Product;
+use App\Livewire\Viewproduct;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',Dashboard::class)->name('dashboard');
+Route::get('/product',Product::class)->name('product');
+Route::get('view_product',Viewproduct::class)->name('view_product');
+Route::get('orderlist',Orderlist::class)->name('orderlist');
+Route::post('/product',[ProductController::class,'store'])->name('store');
+Route::get('/edit/{id}',[EditProduct::class,'edit'])->name('edit');
+Route::post('/edit/{id}',[EditProduct::class,'update'])->name('update');
+Route::get('/delete/{id}',[EditProduct::class,'delete'])->name('delete');
+
+
