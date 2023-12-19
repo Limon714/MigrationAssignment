@@ -18,9 +18,9 @@
                 <td class="p-3 m-4 bg-orange-100">{{ $viu->quantity }}</td>
                 <td class="p-3 m-4 bg-blue-100">
                     <form action="">
-                        <input type="number" name="qty" id="">
+                        <input type="number" class="text-center outline-none" name="qty" id="" value="{{ $viu->quantity - $viu->quantity  }}">
                     </form></td>
-                <td class="p-3 m-4"> <a wire:navigate href="{{ route('product') }}" class="p-2  text-white bg-blue-600 rounded-lg">Sell</a>
+                <td class="p-3 m-4"> <a wire:navigate href="{{ route('view_product') }}" class="p-2  text-white bg-blue-600 rounded-lg">Sell</a>
                 </td>
             </tr>
             @endforeach
