@@ -7,7 +7,7 @@ First, Start Apache & MySQL:
 ```
 
 # Dashboard
-![Screenshot_56](https://github.com/Limon714/Storekeeper/assets/72975868/f51641a6-76ab-4815-93ba-0f7977095f3d) 
+![Screenshot_58](https://github.com/Limon714/Storekeeper/assets/72975868/8451c1b1-216d-4211-9186-87ff96eef1fa)
 
 # Add Product 
 ![Screenshot_54](https://github.com/Limon714/Storekeeper/assets/72975868/c59885a3-de4b-47cf-97f1-677c9af6a137) 
