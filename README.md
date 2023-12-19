@@ -15,3 +15,5 @@ First, Start Apache & MySQL:
 # View Product
 ![Screenshot_55](https://github.com/Limon714/Storekeeper/assets/72975868/d9d6e210-f5a5-48b0-b5e0-e8b218922ae9) 
 
+# Sale Product
+![Screenshot_57](https://github.com/Limon714/Storekeeper/assets/72975868/ae568087-8ad9-4a16-8782-517f158ebdfa)
