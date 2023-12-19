@@ -5,7 +5,7 @@
           <div class="right-side">
             <div class="box-topic">Today's Order</div>
    
-            <div class="number">40,235</div>
+            <div class="number">{{ $view }}</div>
         
             <div class="indicator">
               <i class='bx bx-up-arrow-alt'></i>
