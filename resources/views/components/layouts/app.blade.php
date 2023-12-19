@@ -36,6 +36,13 @@
                   </a>
                 </li>
 
+                <li>
+                  <a wire:navigate wire:navigate href="{{ route('sell') }}">
+                    <i class='bx bx-box' ></i>
+                    <span class="links_name">Sell Product</span>
+                  </a>
+                </li>
+
 
                 <li>
                   <a href="{{ route('orderlist') }}">
