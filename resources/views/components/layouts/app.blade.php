@@ -16,7 +16,7 @@
             </div>
               <ul class="nav-links">
                 <li>
-                  <a wire:navigate href="{{ route('dashboard') }}" class="active">
+                  <a wire:navigate href="{{ route('dashboard') }}">
                     <i class='bx bx-grid-alt' ></i>
                     <span class="links_name">Dashboard</span>
                   </a>
@@ -31,17 +31,12 @@
                 
                 <li>
                   <a wire:navigate wire:navigate href="{{ route('view_product') }}">
-                    <i class='bx bxs-component' ></i>
+                    <i class='bx bxs-component'></i>
                     <span class="links_name">View Product</span>
                   </a>
                 </li>
 
-                <li>
-                  <a wire:navigate wire:navigate href="{{ route('sell') }}">
-                    <i class='bx bx-data' ></i>
-                    <span class="links_name">Sell Product</span>
-                  </a>
-                </li>
+                
 
 
                 <li>

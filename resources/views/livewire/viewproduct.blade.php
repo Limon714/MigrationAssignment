@@ -17,7 +17,7 @@
              <td class="p-3 m-4 bg-gray-300 ">{{ $viu->name }}</td>
              <td class="p-3 m-4 bg-blue-100 ">{{ $viu->price }}</td>
              <td class="p-3 m-4 bg-orange-100">{{ $viu->quantity }}</td>
-             <td class="p-3 m-4"> <a wire:navigate href="{{ route('product') }}" class="p-2  text-white bg-blue-600 rounded-lg">Sell</a>
+             <td class="p-3 m-4"> <a wire:navigate href="{{ route('sell', $viu->id) }}" class="p-2  text-white bg-blue-600 rounded-lg">Sell</a>
               <a wire:navigate href="{{ route('edit',$viu->id) }}" class="p-2  text-white bg-orange-500 rounded-lg">Edit</a>
               <a wire:navigate href="{{ route('delete',$viu->id) }}" class="p-2  text-white bg-red-600 rounded-lg">Delete</a>
              </td>

@@ -9,6 +9,7 @@
                 <th class="p-3 ">Product Price </th>
                 <th class="p-3 ">Quantity </th>
                 <th class="p-3 ">Total Price </th>
+              
                 <!-- Other transaction details -->
             </tr>
             @foreach ($view as $viu)
@@ -16,9 +17,8 @@
                 <td class="p-3 m-4 bg-gray-100 ">{{ $viu->id }}</td>
                 <td class="p-3 m-4 bg-gray-300 ">{{ $viu->name }}</td>
                 <td class="p-3 m-4 bg-orange-100">{{ $viu->price }}</td>
-                <td class="p-3 m-4 bg-blue-100">{{ $viu->quantity }}</td> 
+                <td class="p-3 m-4 bg-blue-100">{{ $viu->quantity }}</td>
                 <td class="p-3 m-4 bg-orange-100">{{ $viu->price *  $viu->quantity }} </td>
-            
             </tr>
             @endforeach
             

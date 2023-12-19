@@ -16,7 +16,7 @@
             </div>
               <ul class="nav-links">
                 <li>
-                  <a wire:navigate href="{{ route('dashboard') }}" class="active">
+                  <a wire:navigate href="{{ route('dashboard') }}">
                     <i class='bx bx-grid-alt' ></i>
                     <span class="links_name">Dashboard</span>
                   </a>
@@ -72,6 +72,7 @@
                     <form action=""  
                 method="POST" class="p-4 grid ml-64 grid-row w-[50%]">
                     @csrf
+                    <input class="p-3 ml-4 mt-4 rounded-lg focus:outline-none" type="text" name="name" value="{{ $editProduct->id }}" placeholder="Product ID">
                     <input class="p-3 ml-4 mt-4 rounded-lg focus:outline-none" type="text" name="name" value="{{ $editProduct->name }}" placeholder="Product Name">
                     <input class="p-3 ml-4 mt-4 rounded-lg focus:outline-none" type="number" name="price" value="{{ $editProduct->price }}" placeholder="Price">
                     <input class="p-3 ml-4 mt-4 rounded-lg focus:outline-none" type="number" name="quantity" value="{{ $editProduct->quantity }}" placeholder="Quantity">
